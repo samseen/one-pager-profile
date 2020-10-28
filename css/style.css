@@ -8,3 +8,27 @@ body {
     background: #000;
     font-family: 'Nova Round', cursive;
 }
+
+header {
+    padding: 40px 50px;
+}
+
+header .logo {
+    float: left;
+}
+
+header .menu {
+    float: right;
+}
+
+header .menu ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header .menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all ease 0.5s;
+}
