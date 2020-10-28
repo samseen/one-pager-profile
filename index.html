@@ -82,6 +82,24 @@
                 easing: 'easeInSine',
                 delay: anime.stagger(100, {start: 4500})
             })
+
+            // SAMSON SECOND ANIMATION UP AND DOWN LETTERS
+            anime({
+                targets: '.name .char2, .name .char4',
+                keyframes: [
+                    {translateY: 100, duration: 1500}
+                ],
+                easing: 'easeInOutExpo',
+                delay: 8000
+            })
+            anime({
+                targets: '.name .char3, .name .char5',
+                keyframes: [
+                    {translateY: -100, duration: 1500}
+                ],
+                easing: 'easeInOutExpo',
+                delay: 8000
+            })
         })
     </script>
 </body>
