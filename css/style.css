@@ -122,3 +122,8 @@ header .menu ul li.btn a:hover {
 .home-text .name span:last-child {
     margin-right: 0;
 }
+
+/* DEFAULT STATE HIDE */
+.home .person img {
+    opacity: 0;
+}
