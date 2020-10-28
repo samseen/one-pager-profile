@@ -108,6 +108,23 @@
                 duration: 3000,
                 delay: 9500
             })
+
+            // menu
+            anime({
+                targets: '.menu li',
+                opacity: 1,
+                duration: 3000,
+                delay: anime.stagger(150, {start: 10500})
+            })
+
+            // INTRO
+            anime({
+                targets: '.small-intro span',
+                opacity: 1,
+                duration: 1000,
+                easing: 'easeInSine',
+                delay: anime.stagger(50, {start: 11000})
+            })
         })
     </script>
 </body>

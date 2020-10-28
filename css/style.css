@@ -127,6 +127,8 @@ header .menu ul li.btn a:hover {
 .home .person img,
 .student span,
 .name span,
-.logo {
+.logo,
+.menu li,
+.small-intro span {
     opacity: 0;
 }
