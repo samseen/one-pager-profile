@@ -59,3 +59,28 @@ header .menu ul li.btn a:hover {
     border-top-left-radius: 0;
     border-bottom-right-radius: 0;
 }
+
+/* CONTAINER */
+.home .container {
+    max-width: 1266px;
+    margin: 0 auto;
+}
+
+/* MICHAEL IMAGE */
+.home .person {
+    float: right;
+    margin: 70px 180px 0;
+    position: relative;
+    border-radius: 70px 0 70px 0;
+    overflow: hidden;
+}
+
+.home .person img {
+    filter: brightness(1.5);
+}
+
+/* SAMSON TEXT */
+.home-text {
+    color: #fff;
+    margin-top: 220px;
+}
