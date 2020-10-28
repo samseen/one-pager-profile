@@ -126,6 +126,7 @@ header .menu ul li.btn a:hover {
 /* DEFAULT STATE HIDE */
 .home .person img,
 .student span,
-.name span {
+.name span,
+.logo {
     opacity: 0;
 }
